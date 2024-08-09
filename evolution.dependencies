@@ -1,0 +1,16 @@
+[
+    {
+        "repository": "device_xiaomi_sky-kernel",
+        "target_path": "device/xiaomi/sky-kernel"
+    },
+    {
+        "repository": "vendor_xiaomi_sky",
+        "target_path": "vendor/xiaomi/sky"
+    },
+    {
+        "repository": "LineageOS/android_hardware_xiaomi",
+        "target_path": "hardware/xiaomi",
+        "remote": "github",
+        "branch": "lineage-21"
+    }
+]
