@@ -5,6 +5,9 @@ type audio_socket, file_type;
 # Battery
 type vendor_sysfs_qcom_battery, fs_type, sysfs_type;
 
+# Boardid
+type vendor_sysfs_boardid, fs_type, sysfs_type;
+
 # Camera
 type camera_persist_file, file_type, mlstrustedobject, vendor_persist_type;
 
@@ -31,6 +34,9 @@ type ta_data_file, data_file_type, file_type;
 # SLA
 type sla_data_file, data_file_type, file_type;
 type slad_socket, file_type;
+
+# Palm
+type vendor_sysfs_palm, sysfs_type, fs_type;
 
 # Proximity
 type proc_proximity_ts, proc_type, fs_type;

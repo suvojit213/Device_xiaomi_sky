@@ -1,11 +1,17 @@
 # Battery
 genfscon sysfs /class/qcom-battery u:object_r:vendor_sysfs_battery_supply:s0
 
+# Boardid
+genfscon sysfs /firmware/devicetree/base/project-info/boardid u:object_r:vendor_sysfs_boardid:s0
+
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:fpc1020                                u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:goodix_fp                              u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fingerprint_goodix                     u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc                        u:object_r:vendor_sysfs_fingerprint:s0
+
+# Palm
+genfscon sysfs /devices/virtual/touch/touch_dev/palm_sensor  u:object_r:vendor_sysfs_palm:s0
 
 # Proximity
 genfscon proc /touchscreen/proximity_switch            u:object_r:proc_proximity_ts:s0
