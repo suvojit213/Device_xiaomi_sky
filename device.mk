@@ -425,7 +425,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     Ims \
-    QtiTelephony
+    QtiTelephony \
+    librmnetctl
 
 # Rootdir
 PRODUCT_PACKAGES += \
