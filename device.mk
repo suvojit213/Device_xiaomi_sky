@@ -332,6 +332,10 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec_utils.vendor \
     libavservices_minijail.vendor
 
+# Mlipay
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mlipay@1.1.vendor
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
