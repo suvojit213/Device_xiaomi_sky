@@ -15,7 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit common Evolution-X configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 EVO_BUILD_TYPE := Official
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_PIXEL_CHARGER := true
 
