@@ -469,6 +469,10 @@ PRODUCT_PACKAGES += \
     WifiResCommon \
     WifiResTarget
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Secure element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor:64
