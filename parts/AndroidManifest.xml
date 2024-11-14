@@ -95,5 +95,11 @@
             </intent-filter>
         </service>
 
+         <service
+            android:name=".display.LcdFeaturesService"
+            android:exported="true"
+            android:permission="LcdFeaturesService">
+        </service>
+    
     </application>
 </manifest>
