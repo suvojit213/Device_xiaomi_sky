@@ -23,9 +23,6 @@ vendor/etc/acdbdata/ravelin_qrd_cust_jp/QRD_ravelin_jp_workspaceFileXml.qwsp
 # ADSP
 vendor/bin/adsprpcd
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsprpc.so
-vendor/lib/libvmmem.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libhme.so
@@ -301,10 +298,6 @@ vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/android.hardware.camera.provider@2.4.so
-vendor/lib64/android.hardware.camera.provider@2.5.so
-vendor/lib64/android.hardware.camera.provider@2.6.so
-vendor/lib64/android.hardware.camera.provider@2.7.so
 vendor/lib64/camx.device@3.2-impl.so
 vendor/lib64/camx.device@3.3-impl.so
 vendor/lib64/camx.device@3.4-ext-impl.so
@@ -389,7 +382,6 @@ vendor/lib64/libipebpsstriping170.so
 vendor/lib64/libipebpsstriping480.so
 vendor/lib64/libjnigraphics.so:vendor/lib64/libjnigraphics_prebuilt.so
 vendor/lib64/libjpege.so
-vendor/lib64/libmemunreachable.so
 vendor/lib64/libmfGhostDetection.so
 vendor/lib64/libmialgo_ai_vision.so
 vendor/lib64/libmialgo_aio_seg.so
@@ -411,13 +403,10 @@ vendor/lib64/libmpbase.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopencv3a.so
 vendor/lib64/libos.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.display.config-V2-ndk_platform.so
 
 # Camera firmware
@@ -1164,14 +1153,6 @@ vendor/bin/qtisetprop
 vendor/lib64/libsoc_helper.so
 vendor/lib64/libsoc_helper_jni.so
 
-# QTI VNDK Framework Detect
-vendor/lib/libvndfwk_detect_jni.qti.so
-vendor/lib/libvndfwk_detect_jni.qti_vendor.so
-vendor/lib/libqti_vndfwk_detect_vendor.so
-vendor/lib64/libqti_vndfwk_detect_vendor.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
-vendor/lib64/libvndfwk_detect_jni.qti_vendor.so
-
 # RIL
 product/app/uimgbaservice/uimgbaservice.apk
 product/etc/permissions/UimGba.xml
@@ -1417,7 +1398,6 @@ vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
-vendor/bin/test-nusensors
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/etc/init/vendor.sensors.qti.rc
