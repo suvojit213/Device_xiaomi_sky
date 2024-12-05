@@ -63,6 +63,9 @@ function blob_fixup() {
         "${PATCHELF}" --replace-needed "android.hardware.security.secureclock-V1-ndk_platform.so" "android.hardware.security.secureclock-V1-ndk.so" "${2}"
         "${PATCHELF}" --replace-needed "android.hardware.security.sharedsecret-V1-ndk_platform.so" "android.hardware.security.sharedsecret-V1-ndk.so" "${2}"
         ;;
+    vendor/bin/qcc-trd)
+        "${PATCHELF}" --replace-needed "libgrpc++_unsecure.so" "libgrpc++_unsecure_prebuilt.so" "${2}"
+        ;;
     vendor/bin/sensors.qti)
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
         ;;
@@ -107,6 +110,9 @@ function blob_fixup() {
         ;;
     vendor/lib64/libgnss.so)
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+        ;;
+    vendor/lib64/libgrpc++_unsecure_prebuilt.so)
+        "${PATCHELF}" --set-soname "libgrpc++_unsecure_prebuilt.so" "${2}"
         ;;
     vendor/lib64/libwvhidl.so)
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
