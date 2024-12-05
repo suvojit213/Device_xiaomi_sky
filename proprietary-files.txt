@@ -30,8 +30,6 @@ vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libhme.so
 vendor/lib64/libmctfengine_stub.so
-vendor/lib64/libvmmem.so
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n31.bin
@@ -87,7 +85,6 @@ vendor/etc/models/acd/music.eai
 vendor/etc/models/acd/speech.eai
 vendor/lib64/hw/audio.primary.parrot.so
 vendor/lib64/libadm.so
-vendor/lib64/libadsprpc.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
@@ -104,11 +101,9 @@ vendor/lib64/libkaraokepal.so
 vendor/lib64/liblx-ar_util.so
 vendor/lib64/liblx-osal.so
 vendor/lib64/libmcs.so
-vendor/lib64/libmdsprpc.so
 vendor/lib64/libpal_net_if.so
 vendor/lib64/libpalclient.so
 vendor/lib64/libqtigefar.so
-vendor/lib64/libsdsprpc.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.pal@1.0.so
 
@@ -311,8 +306,6 @@ vendor/lib64/android.hardware.camera.provider@2.4.so
 vendor/lib64/android.hardware.camera.provider@2.5.so
 vendor/lib64/android.hardware.camera.provider@2.6.so
 vendor/lib64/android.hardware.camera.provider@2.7.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camx.device@3.2-impl.so
 vendor/lib64/camx.device@3.3-impl.so
 vendor/lib64/camx.device@3.4-ext-impl.so
@@ -359,7 +352,6 @@ vendor/lib64/com.qti.settings.clarence.so
 vendor/lib64/com.qti.settings.netrani.so
 vendor/lib64/com.qti.stats.common.so
 vendor/lib64/libMNN.so
-vendor/lib64/libOpenCL.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_dualcam_refocus_image.so
 vendor/lib64/libarcsoft_dualcam_refocus_video.so
@@ -390,10 +382,7 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libcv_common.so
-vendor/lib64/libcvp2_1.so
 vendor/lib64/libdisplayconfig.qti.so
-vendor/lib64/libeva.so
 vendor/lib64/libgralloc.qti.so
 vendor/lib64/libhdr10plus.so
 vendor/lib64/libipebpsstriping.so
@@ -408,9 +397,7 @@ vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmialgoengine2.so
-vendor/lib64/libmifpext.so
 vendor/lib64/libminkdescriptor.so
-vendor/lib64/libminksocket_vendor.so
 vendor/lib64/libmiphone_capture_bokeh.so
 vendor/lib64/libmiphone_preview_bokeh.so
 vendor/lib64/libmiracast.so
@@ -425,13 +412,6 @@ vendor/lib64/libopencv.so
 vendor/lib64/libopencv3a.so
 vendor/lib64/libos.so
 vendor/lib64/libqti_vndfwk_detect.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/libsensorslog.so
-vendor/lib64/libsnsapi.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
@@ -563,8 +543,6 @@ vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
 vendor/lib64/libmasc.so
 vendor/lib64/libshsc.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
-vendor/lib64/libvndfwk_detect_jni.qti_vendor.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
@@ -799,7 +777,6 @@ vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
 vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
 vendor/etc/apdr.conf
-vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
 vendor/etc/batching.conf
 vendor/etc/cacert_location.pem
 vendor/etc/izat.conf
@@ -1040,8 +1017,6 @@ vendor/etc/media_codecs_ravelin.xml
 vendor/etc/media_profiles.xml
 vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_ravelin.xml
-vendor/etc/microphone_characteristics.xml
-vendor/etc/usecaseKvManager.xml
 vendor/lib64/libEvrcSwCodec.so
 vendor/lib64/libQcelp13SwCodec.so
 vendor/lib64/libqc2audio_base.so
@@ -1252,7 +1227,6 @@ system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvtutils.so
-system_ext/lib64/libdiag_system.so
 system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
@@ -1341,7 +1315,6 @@ vendor/lib64/libQtiRilLoadable.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
-vendor/lib64/libminkdescriptor.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_datapath_proxy.so
