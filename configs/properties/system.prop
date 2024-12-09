@@ -49,6 +49,9 @@ vendor.mm.enable.qcom_parser=16777215
 persist.mm.enable.prefetch=true
 ro.vendor.qti.va_aosp.support=1
 
+# QTI
+ro.vendor.qti.va_aosp.support=1
+
 # RIL
 DEVICE_PROVISIONED=1
 persist.vendor.data.mode=concurrent
