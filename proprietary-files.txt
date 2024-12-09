@@ -355,6 +355,7 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libgralloc.qti.so
 vendor/lib64/libhdr10plus.so
@@ -388,6 +389,7 @@ vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
@@ -1455,6 +1457,7 @@ vendor/lib64/vendor.qti.hardware.limits@1.1.so
 vendor/bin/mi_thermald
 vendor/bin/thermal-engine-v2
 vendor/etc/init/init_thermal-engine-v2.rc
+vendor/lib64/libthermalclient.so
 
 # Thermal configs - from hyperos (modified)
 vendor/etc/thermal-hp-normal-global.conf|9eca7d25acdfb189dd15e8276203e77ddb9361fd
