@@ -1,4 +1,4 @@
-# Device proprietary files - from sky HyperOS V816.0.6.0.UMWINXM package, unless pinned
+# Device proprietary files - from sky HyperOS OS2.0.3.0.VMWINXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
@@ -135,7 +135,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Camera Configs
 odm/etc/camera/camerabooster.json
-system_ext/etc/camerabooster.json
 vendor/etc/camera/aivsModel_16E8F8F9
 vendor/etc/camera/aivsModel_56058501
 vendor/etc/camera/aivsModel_56058501.tempcache
@@ -560,6 +559,7 @@ vendor/lib64/libvideoutils.so
 system_ext/lib64/libdiag_system.qti.so
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
+system/lib64/vendor.qti.diaghal-V1-ndk.so
 vendor/bin/diag-router
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
@@ -710,6 +710,7 @@ system_ext/lib64/libfm-hci.so
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/init.qti.fm.sh
+system/lib64/vendor.qti.hardware.fm-V1-ndk.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
@@ -1614,6 +1615,7 @@ system_ext/lib64/libwfduibcsinkinterface.so
 system_ext/lib64/libwfduibcsrc.so
 system_ext/lib64/libwfduibcsrcinterface.so
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
+system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so
 system_ext/priv-app/WfdService/WfdService.apk
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
