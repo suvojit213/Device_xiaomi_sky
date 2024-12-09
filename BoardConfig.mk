@@ -90,6 +90,10 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 # FM
 BOARD_HAVE_QCOM_FM := true
 
+# GPS
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
+$(call soong_config_set, qtilocation, feature_nhz, false)
+
 # Kernel
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_BASE := 0x00000000
