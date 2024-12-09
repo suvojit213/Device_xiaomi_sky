@@ -28,9 +28,6 @@ type vendor_ins_vendor_data_file, data_file_type, file_type;
 # Mac Address
 type vendor_mac_vendor_data_file, data_file_type, file_type, mlstrustedobject;
 
-# Mlipay
-type ta_data_file, data_file_type, file_type;
-
 # SLA
 type sla_data_file, data_file_type, file_type;
 type slad_socket, file_type;
