@@ -34,6 +34,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Set this for display your name in firmware version
 CUSTOM_MAINTAINER := Dhanush
 
+TARGET_USES_BLUR := false
+
 ## Device identifier
 PRODUCT_DEVICE := sky
 PRODUCT_NAME := aosp_sky
