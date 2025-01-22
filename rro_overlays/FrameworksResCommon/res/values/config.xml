@@ -299,7 +299,4 @@
     <!-- See AmbientSensor.AmbientColorTemperatureSensor. The ambient color temperature sensor name. -->
     <string name="config_displayWhiteBalanceColorTemperatureSensorName">com.google.sensor.color</string>
 
-    <!-- media controls -->
-    <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
-
 </resources>
