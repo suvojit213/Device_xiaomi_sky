@@ -21,19 +21,6 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 
-# 2by2 flags
-# Extra apps are included by default.
-# Set false to disable it
-TARGET_INCLUDE_EXTRA_APPS := false
-
-# Boot animation resolution
-# Please choose from 480, 720, 1080, 1440.
-# Default is 1080
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# Set this for display your name in firmware version
-CUSTOM_MAINTAINER := Dhanush
-
 TARGET_USES_BLUR := false
 
 ## Device identifier

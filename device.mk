@@ -174,11 +174,6 @@ PRODUCT_COPY_FILES += \
 # Firmware
 $(call inherit-product-if-exists, vendor/xiaomi/firmware/sky/config.mk)
 
-# FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    qcom.fmradio
-
 # F2FS utilities
 PRODUCT_PACKAGES += \
     sg_write_buffer \
@@ -310,7 +305,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
