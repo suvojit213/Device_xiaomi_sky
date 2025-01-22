@@ -546,3 +546,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     firmware_adrastea_wlan_mac.bin_symlink \
     firmware_adrastea_WCNSS_qcom_cfg.ini_symlink
+
+# Outer Tune
+PRODUCT_PACKAGES += \
+    OuterTune
+
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)

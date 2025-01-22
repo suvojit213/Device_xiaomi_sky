@@ -52,6 +52,9 @@ ro.vendor.qti.va_aosp.support=1
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
+# Render
+debug.cpurend.vsync=false
+
 # RIL
 DEVICE_PROVISIONED=1
 persist.vendor.data.mode=concurrent
