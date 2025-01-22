@@ -100,8 +100,8 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := \
     video=vfb:640x400,bpp=32,memsize=3072000 \
     disable_dma32=on \
-    swinfo.fingerprint=$(AOSP_VERSION) \
-    mtdoops.fingerprint=$(AOSP_VERSION)
+    swinfo.fingerprint=$(CLOVER_VERSION) \
+    mtdoops.fingerprint=$(CLOVER_VERSION)
 
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
@@ -260,7 +260,7 @@ DEVICE_MANIFEST_RAVELIN_FILES := \
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/vintf/vendor_framework_compatibility_matrix.xml \
     $(DEVICE_PATH)/configs/vintf/xiaomi_framework_compatibility_matrix.xml \
-    vendor/aosp/config/device_framework_matrix.xml
+    vendor/clover/config/device_framework_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/framework_manifest.xml
 ODM_MANIFEST_SKUS += hceese hcesim hcesim1 hcesim1ese hcesimese
 ODM_MANIFEST_HCEESE_FILES := $(DEVICE_PATH)/configs/vintf/manifest_hceese.xml
