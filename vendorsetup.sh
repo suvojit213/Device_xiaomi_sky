@@ -1,10 +1,3 @@
-echo 'Outer tune Repo'
-
-# Outertune music app
-git clone https://github.com/dhanush281/packages_apps_extrapacks.git packages/apps/OuterTune
-
-echo "done"
-
 echo "Cloning Basic Call recorder..."
 
 # BCR
@@ -18,7 +11,7 @@ echo "Setting up repositories for Redmi 12 5G / Poco M6 Pro 5G (sky)..."
 
 # Clone the kernel source
 echo "Cloning kernel repository..."
-git clone https://github.com/dhanush281/android_xiaomi_sky_kernel.git device/xiaomi/sky-kernel
+git clone https://github.com/PixelOS-Devices/device_xiaomi_sky-kernel.git device/xiaomi/sky-kernel
 
 # Clone the vendor source
 echo "Cloning vendor repository..."
